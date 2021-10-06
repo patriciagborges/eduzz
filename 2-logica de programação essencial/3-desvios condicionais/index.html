@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprenda a utilizar desvios condicionais e boas práticas em programaçã<object data="" type=""></object>
+    </title>
+</head>
+
+<body>
+    Desvio condicional - Se
+    Utilização:
+    "É utilizada a palavra reserrvada se, a condição a ser testada entre parentesentes e as instruçõioes que devem ser
+    executadas entre chaves caso o desvio seja verdadeiro."
+    ex:
+    se (media>=7){
+    escreva("Parabens, você foi aprovado.")
+    }
+
+    Desvio condicional - senao
+    Agora vamos imaginar que se a condição for falsa um outro conjunto de comandos deve ser executado. Quando iremos
+    encontrar esta situação?
+    Ex:
+    se (media>=7){
+    escreva("Parabens você foi aprovado")
+    }senao{
+    escreva ("Você foi reprovado.")
+    }
+
+    Comentários no código:
+    Muito importante para lembrar ou deixar uma especificação que não será lida pelo navegador.
+
+    Desvio condicional - caso
+    Este comando é similar ao comandos se e senao, e reduz a complexidade na escolha de diversas opções. Apesar de suas
+    similaridades com o se, ele possui algumas diferenças. Neste comando não é possível o uso de operadores lógicos, ele
+    apenas trabalha com valores definidos.
+
+    ex:
+
+    programa{
+    funcao inicio(){
+    escreva ("1- abrir netflix 2 - abrir amazon prime 3 - abrir hbo go 4 - sair")
+    inteiro menu = 0
+    escreva('sua opções')
+    leia (menu)
+
+    escolha (menu){
+    caso 1:
+    escreva ("netflix")
+    pare
+    caso 2:
+    escreva("amazon")
+    pare
+    caso 3:
+    escreva("hbo")
+    pare
+    caso 4:
+    escreva("Sair")
+    pare
+    caos contrario 
+    escreva("opção invalida")
+    }
+    }
+    }
+
+</body>
+
+</html>

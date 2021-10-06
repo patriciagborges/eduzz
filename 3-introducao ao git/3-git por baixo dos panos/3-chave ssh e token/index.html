@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chave ssh e token</title>
+</head>
+<body>
+    Chave ssh
+    Conecção segura e incriptada entre 2 máquinas.
+
+    Comandos:
+    ssh-keygen -t ed255519 -c emaildogithub@gmail.com
+
+    Entrar na pasta e dar um ls
+
+    cat id_chave.publica
+    
+    Add a chave lá no git
+
+    eval $(ssh-agent -s)
+
+    ssh-add id_chaveprivada
+
+
+</body>
+</html>

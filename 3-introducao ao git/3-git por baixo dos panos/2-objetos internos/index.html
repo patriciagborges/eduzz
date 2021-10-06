@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Objetos Internos do GIT</title>
+</head>
+<body>
+    - Blobs
+    - Trees
+    - Commits
+
+    Bloobs:
+    Os arquivos do git ficam guardados no blob (metadados do GIT)
+    contem um sha1
+
+    Trees
+    Armazena os blobs e aponta para blobs diferentes
+    Monta a estrutura de onde estão salvos os arquivos.
+    Pode apontar para outra arvore também. Tem um sha especifico dela, se mudar o sha do blob a dela muda também.
+
+    Commit
+    Junta tudo e dá sentido para a alteração
+    aponta para arvore, outro commit, autor e mensagem.
+    Possui um timestemp
+    Comnmit também possui um sha1
+
+    O git é um sistema distribuido seguro.
+    Pelo fatos dos commits serem tão dificeis de serem alterados, isso torna o git um sistema super seguro. 
+
+
+</body>
+</html>
